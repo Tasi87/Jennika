@@ -1,3 +1,18 @@
+:root {
+    --bg-secondary: ;
+    --cl-accent: ;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkint-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-kerning: auto;
+}
+
 html {
     font-size: 100%;
     line-height: 1.15;
@@ -9,3 +24,8 @@ html {
     scroll-padding-top: 10rem;
     /* nesrollne to na top sekcie */
 }
+
+/* clearfix */
+.group:before,
+.group:after { content: " "; display: table; }
+.group:after { clear: both; }

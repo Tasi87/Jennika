@@ -1,17 +1,17 @@
-.albums {
+.album {
     margin: 4rem 0;
 }
 
-.albums h2 {
+.album h2 {
     color: #ff00a3;
     text-shadow: 2px 2px 0 #000;
 }
 
-.albums h3 {
+.album h3 {
     text-shadow: 1px 1px 0 #000;
 }
 
-.albums .content {
+.album .content {
     position: relative;
     bottom: 2rem;
 }
@@ -25,11 +25,11 @@
     }
 
     .album figure {
-        flex: 3;
+        flex: 2;
     }
 
     .album .content {
-        flex: 1;
+        flex: 2;
     }
 }
 

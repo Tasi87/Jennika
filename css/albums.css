@@ -1,0 +1,12 @@
+.albums {
+    margin: 4rem 0;
+}
+
+.albums h2 {
+    color: #ff00a3;
+}
+
+.albums .content {
+    position: relative;
+    bottom: 2rem;
+}

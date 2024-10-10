@@ -4,6 +4,11 @@
 
 .albums h2 {
     color: #ff00a3;
+    text-shadow: 2px 2px 0 #000;
+}
+
+.albums h3 {
+    text-shadow: 1px 1px 0 #000;
 }
 
 .albums .content {

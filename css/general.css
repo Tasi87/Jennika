@@ -1,7 +1,8 @@
 :root {
-    --bg-secondary: red;
-    --cl-accent: ;
+    --bg-secondary: #bada55;
+    --cl-accent: hotpink;
     --bg-body: #262626;
+    --cl-button: red;
     --ff: Helvetica, sans-serif;
 }
 

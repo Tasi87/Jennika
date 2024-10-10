@@ -43,7 +43,7 @@ h1, h2, h3 {
 }
 
 h2 {
-    font-size: clamp(1.75rem, 8vw, 21.25rem);
+    font-size: clamp(1.75rem, 8vw, 2.5rem);
 }
 
 h3 {
@@ -62,4 +62,6 @@ figure {
 
 .container {
     padding: 1.25rem;
+    max-width: 1170px;
+    margin: 0 auto;
 }

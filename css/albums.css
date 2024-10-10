@@ -22,15 +22,28 @@
     
     .album {
         display: flex;
+        align-items: center;
+        gap: 3vw;
+
+        margin: 2.5rem 0;
+        padding: 1rem;
+
+        border-right: 0.75rem solid #ff00a3;
+    }
+    
+    .album:nth-child(even) {
+        border-left: 0.75rem solid #ff00a3;
+        border-right: none;
     }
 
     .album figure {
-        flex: 2;
+        flex: 1;
     }
 
     .album .content {
         flex: 2;
         position: static;
+        padding: 0 2rem;
     }
 }
 

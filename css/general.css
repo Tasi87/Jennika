@@ -1,6 +1,8 @@
 :root {
-    --bg-secondary: ;
+    --bg-secondary: red;
     --cl-accent: ;
+    --bg-body: #262626;
+    --ff: Helvetica, sans-serif;
 }
 
 *,
@@ -23,6 +25,84 @@ html {
     /* zabezpečuje pekné animované posúvanie po stránke */
     scroll-padding-top: 10rem;
     /* nesrollne to na top sekcie */
+}
+
+body {
+    color: #fff;
+    font-family: var(--ff);
+    background: var(--bg-body);
+    margin: 0;
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+a {
+    color: inherit;
+    background-color: transparent;
+}
+
+img {
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    line-height: 1;
+}
+
+h2 {
+    font-size: clamp(1.75rem, 8vW, 2.5rem);
+}
+
+h3 {
+    font-size: clamp(1.75rem, 10vw, 3.5rem);
+}
+
+p {
+    font-size: 1.25rem;
+    font-family: Tahoma, Verdana, sans-serif;
+    margin: 1rem 0 0;
+}
+
+figure {
+    margin: 0;
+}
+
+.menu {
+    margin: 0;
+    padding-left: 0;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 0 1.25rem;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+input,
+button {
+    all: unset;
+    counter-reset: black;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: 1;
+}
+
+button {
+    cursor: pointer;
 }
 
 /* clearfix */

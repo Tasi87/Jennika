@@ -30,6 +30,7 @@
 
     .album .content {
         flex: 2;
+        position: static;
     }
 }
 

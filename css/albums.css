@@ -15,3 +15,25 @@
     position: relative;
     bottom: 2rem;
 }
+
+/* Responsive */
+
+@media screen and (min-width: 810px) {
+    
+    .albums {
+        display: flex;
+    }
+
+    .albums figure {
+        flex: 3;
+    }
+
+    .albums .content {
+        flex: 1;
+    }
+}
+
+@media screen and (min-width: 810px) {
+    
+
+}

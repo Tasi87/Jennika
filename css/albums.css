@@ -20,15 +20,15 @@
 
 @media screen and (min-width: 810px) {
     
-    .albums {
+    .album {
         display: flex;
     }
 
-    .albums figure {
+    .album figure {
         flex: 3;
     }
 
-    .albums .content {
+    .album .content {
         flex: 1;
     }
 }
